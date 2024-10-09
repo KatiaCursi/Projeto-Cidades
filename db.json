@@ -1,19 +1,76 @@
 {
-  "posts": [
+  "cidades": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "nome": "São Paulo",
+      "estado": "SP",
+      "cep": 12345678,
+      "habitantes": 12300000,
+      "pais": "Brasil"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 3,
+      "nome": "Belo Horizonte",
+      "estado": "MG",
+      "cep": 34567890,
+      "habitantes": 2512000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 4,
+      "nome": "Porto Alegre",
+      "estado": "RS",
+      "cep": 45678901,
+      "habitantes": 1485000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 5,
+      "nome": "Curitiba",
+      "estado": "PR",
+      "cep": 56789012,
+      "habitantes": 1948000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 6,
+      "nome": "Salvador",
+      "estado": "BA",
+      "cep": 67890123,
+      "habitantes": 2872000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 7,
+      "nome": "Fortaleza",
+      "estado": "CE",
+      "cep": 78901234,
+      "habitantes": 2687000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 8,
+      "nome": "Brasília",
+      "estado": "DF",
+      "cep": 89012345,
+      "habitantes": 3055000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 9,
+      "nome": "Manaus",
+      "estado": "AM",
+      "cep": 90123456,
+      "habitantes": 2213000,
+      "pais": "Brasil"
+    },
+    {
+      "id": 10,
+      "nome": "Recife",
+      "estado": "PE",
+      "cep": 12398745,
+      "habitantes": 1656000,
+      "pais": "Brasil"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

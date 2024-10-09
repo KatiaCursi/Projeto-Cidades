@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TabelaCidadesComponent } from './tabela-cidades/tabela-cidades.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormularioCidadesComponent } from './formulario-cidades/formulario-cidades.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabelaCidadesComponent
+    TabelaCidadesComponent,
+    FormularioCidadesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

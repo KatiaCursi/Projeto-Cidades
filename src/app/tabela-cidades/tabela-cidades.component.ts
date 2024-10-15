@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { cidade } from '../cidades';
 import { CidadesService } from '../cidades.service';
+import { Router } from '@angular/router';
+import { ConstructorProvider } from '@angular/core';
 
 @Component({
   selector: 'app-tabela-cidades',
@@ -11,7 +13,9 @@ export class TabelaCidadesComponent {
 
   cidades: cidade[] = [];
 
-  constructor(private service: CidadesService){}
+  constructor(private service: CidadesService,
+              private router: Router
+  ){}
 
   ngOnInit(){
     this.loadCidades()
@@ -27,4 +31,6 @@ export class TabelaCidadesComponent {
       next: () => this.loadCidades()
     })
   }
+
+  create(){this.router.navigate(['cidade'])}
 }
